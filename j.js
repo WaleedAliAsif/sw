@@ -141,5 +141,3 @@ function sum(b) {
    
     return sum;
 }
-
-
