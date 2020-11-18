@@ -89,16 +89,16 @@ function export2Word( element ) {
 function average(a,b,c){
 var average;
 if(c == 0 ){
-average = parseFloat(a)+parseFloat(b);
+average = (parseFloat(a)+parseFloat(b))/2;
 }
 else if(c != 0 || b != 0 || a != 0){
-    average = parseFloat(a) + parseFloat(b) + parseFloat(c);
+    average = (parseFloat(a) + parseFloat(b) + parseFloat(c))/3;
 }
 else if(a == 0 ){
-    average = parseFloat(b) + parseFloat(c);
+    average = (parseFloat(b) + parseFloat(c))/2;
     }
 else if(b == 0 ){
-        average = parseFloat(a) + parseFloat(c);
+        average = (parseFloat(a) + parseFloat(c))2;
         }
 return average;
 }
