@@ -11,6 +11,7 @@
   /* font-smoothing: antialiased; */
   text-rendering: optimizeLegibility;
 }
+html{  scroll-behavior: smooth;}
 
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
